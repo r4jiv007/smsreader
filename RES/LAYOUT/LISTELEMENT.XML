@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll" >
+    
+      <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frm"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        
+        />
+
+		<LinearLayout
+   		 	android:layout_height="3dp"
+    		android:layout_width="fill_parent"
+    		android:background="#FFFFFF"/>
+   	   <TextView
+   	       android:id="@+id/msg"
+   	       android:layout_width="fill_parent"
+   	       android:layout_height="wrap_content"
+   	       android:layout_gravity="center_vertical|right"
+   	       android:inputType="textCapSentences"
+   	       android:singleLine="true"
+   	       android:textSize="30dp" 
+   	       android:scrollHorizontally="true"
+   	       android:textColor="#000000"/>
+      
+   	  
+           
+        
+        
+</LinearLayout>
+    
+    
+
